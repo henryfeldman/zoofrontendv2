@@ -1,0 +1,14 @@
+body{
+    text-align: center;
+    position: relative;
+    background-image:url(moose.jpg);
+    color:white;
+
+
+}
+#currentAnimals{
+    font-size: x-large;
+    font-family: "Copperplate Gothic Bold";
+
+
+}

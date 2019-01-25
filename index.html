@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zoo Front End</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
+
+</head>
+<body>
+<h1>Welcome to the Zoo</h1>
+Name: <input type="text" id="animalName"placeholder="Ex: Penelope">
+Animal Type: <select id="species">
+    <option value="0">tiger</option>
+    <option value="1">bear</option>
+    <option value="2">giraffe</option>
+    <option value="3">unicorn</option>
+    <option value="4">bee</option>
+</select>
+<button id = "addAnimal" class="w3-btn w3-round-xlarge w3-button w3-khaki">Add!</button>
+<br>
+<br>
+Pick a food to feed all of the animals:
+<select id="favFood">
+
+    <option value="meat">meat</option>
+    <option value="leaves">leaves</option>
+    <option value="pollen">pollen</option>
+    <option value="marshmallows">marshmallows</option>
+    <option value="fish">fish</option>
+</select>
+<button id = "feedAnimals" class="w3-btn w3-round-xlarge w3-button w3-sand">Feed</button>
+<br><br>
+Choose the name of the animal you want to release to the wild:
+<input type="text" id="removeName" placeholder="Ex: Penelope">
+<button id="remove" class="w3-btn w3-round-xlarge w3-button w3-brown">Choose</button>
+<br><br><div id="currentAnimals">Animals Currently in the Zoo</div>
+<div id="actions"></div>
+<br><br>
+<div id="feed">Live Feed:<br></div>
+
+</body>
+</html>
